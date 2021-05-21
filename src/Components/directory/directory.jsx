@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import {Menuitemcomponent} from '../menu-item/menu-item-component'
+import Menuitemcomponent from '../menu-item/menu-item-component'
+import {withRouter} from 'react-router-dom'
 
-export default class Directory extends Component {
+class Directory extends Component {
     constructor(){
         super()
         this.state = {
@@ -44,10 +45,12 @@ export default class Directory extends Component {
     render() {
         return (
             <div className='directory-menu'>
-                {this.state.section.map(({title, id, imageUrl, size})=>(
-                    <Menuitemcomponent title={title} id={id} imageUrl={imageUrl} size={size}/>
+                {this.state.section.map(({id, ...otherprops})=>(
+                    <Menuitemcomponent key={id} {...otherprops}/>
                 ))}
             </div>
         )
     }
 }
+
+export default withRouter(Directory)

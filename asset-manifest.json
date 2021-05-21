@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/ecommerce-demo/static/css/main.02076103.chunk.css",
-    "main.js": "/ecommerce-demo/static/js/main.a1eb22dc.chunk.js",
-    "main.js.map": "/ecommerce-demo/static/js/main.a1eb22dc.chunk.js.map",
-    "runtime-main.js": "/ecommerce-demo/static/js/runtime-main.445477f0.js",
-    "runtime-main.js.map": "/ecommerce-demo/static/js/runtime-main.445477f0.js.map",
-    "static/js/2.fbb1e278.chunk.js": "/ecommerce-demo/static/js/2.fbb1e278.chunk.js",
-    "static/js/2.fbb1e278.chunk.js.map": "/ecommerce-demo/static/js/2.fbb1e278.chunk.js.map",
-    "static/js/3.c6661bcf.chunk.js": "/ecommerce-demo/static/js/3.c6661bcf.chunk.js",
-    "static/js/3.c6661bcf.chunk.js.map": "/ecommerce-demo/static/js/3.c6661bcf.chunk.js.map",
+    "main.css": "/ecommerce-demo/static/css/main.0140a697.chunk.css",
+    "main.js": "/ecommerce-demo/static/js/main.3c50db2d.chunk.js",
+    "main.js.map": "/ecommerce-demo/static/js/main.3c50db2d.chunk.js.map",
+    "runtime-main.js": "/ecommerce-demo/static/js/runtime-main.98bab9a0.js",
+    "runtime-main.js.map": "/ecommerce-demo/static/js/runtime-main.98bab9a0.js.map",
+    "static/js/2.ccc446a4.chunk.js": "/ecommerce-demo/static/js/2.ccc446a4.chunk.js",
+    "static/js/2.ccc446a4.chunk.js.map": "/ecommerce-demo/static/js/2.ccc446a4.chunk.js.map",
+    "static/js/3.26320977.chunk.js": "/ecommerce-demo/static/js/3.26320977.chunk.js",
+    "static/js/3.26320977.chunk.js.map": "/ecommerce-demo/static/js/3.26320977.chunk.js.map",
     "index.html": "/ecommerce-demo/index.html",
     "service-worker.js": "/ecommerce-demo/service-worker.js",
     "service-worker.js.map": "/ecommerce-demo/service-worker.js.map",
-    "static/css/main.02076103.chunk.css.map": "/ecommerce-demo/static/css/main.02076103.chunk.css.map",
-    "static/js/2.fbb1e278.chunk.js.LICENSE.txt": "/ecommerce-demo/static/js/2.fbb1e278.chunk.js.LICENSE.txt"
+    "static/css/main.0140a697.chunk.css.map": "/ecommerce-demo/static/css/main.0140a697.chunk.css.map",
+    "static/js/2.ccc446a4.chunk.js.LICENSE.txt": "/ecommerce-demo/static/js/2.ccc446a4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.445477f0.js",
-    "static/js/2.fbb1e278.chunk.js",
-    "static/css/main.02076103.chunk.css",
-    "static/js/main.a1eb22dc.chunk.js"
+    "static/js/runtime-main.98bab9a0.js",
+    "static/js/2.ccc446a4.chunk.js",
+    "static/css/main.0140a697.chunk.css",
+    "static/js/main.3c50db2d.chunk.js"
   ]
 }

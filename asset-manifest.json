@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/ecommerce-demo/static/css/main.61e8b5b0.chunk.css",
-    "main.js": "/ecommerce-demo/static/js/main.1eae9a66.chunk.js",
-    "main.js.map": "/ecommerce-demo/static/js/main.1eae9a66.chunk.js.map",
-    "runtime-main.js": "/ecommerce-demo/static/js/runtime-main.e65ceb92.js",
-    "runtime-main.js.map": "/ecommerce-demo/static/js/runtime-main.e65ceb92.js.map",
-    "static/js/2.7007047f.chunk.js": "/ecommerce-demo/static/js/2.7007047f.chunk.js",
-    "static/js/2.7007047f.chunk.js.map": "/ecommerce-demo/static/js/2.7007047f.chunk.js.map",
-    "static/js/3.948a66ef.chunk.js": "/ecommerce-demo/static/js/3.948a66ef.chunk.js",
-    "static/js/3.948a66ef.chunk.js.map": "/ecommerce-demo/static/js/3.948a66ef.chunk.js.map",
+    "main.js": "/ecommerce-demo/static/js/main.e9ca8b19.chunk.js",
+    "main.js.map": "/ecommerce-demo/static/js/main.e9ca8b19.chunk.js.map",
+    "runtime-main.js": "/ecommerce-demo/static/js/runtime-main.02073992.js",
+    "runtime-main.js.map": "/ecommerce-demo/static/js/runtime-main.02073992.js.map",
+    "static/js/2.9c6d880b.chunk.js": "/ecommerce-demo/static/js/2.9c6d880b.chunk.js",
+    "static/js/2.9c6d880b.chunk.js.map": "/ecommerce-demo/static/js/2.9c6d880b.chunk.js.map",
+    "static/js/3.34c419ae.chunk.js": "/ecommerce-demo/static/js/3.34c419ae.chunk.js",
+    "static/js/3.34c419ae.chunk.js.map": "/ecommerce-demo/static/js/3.34c419ae.chunk.js.map",
     "index.html": "/ecommerce-demo/index.html",
     "service-worker.js": "/ecommerce-demo/service-worker.js",
     "service-worker.js.map": "/ecommerce-demo/service-worker.js.map",
     "static/css/main.61e8b5b0.chunk.css.map": "/ecommerce-demo/static/css/main.61e8b5b0.chunk.css.map",
-    "static/js/2.7007047f.chunk.js.LICENSE.txt": "/ecommerce-demo/static/js/2.7007047f.chunk.js.LICENSE.txt",
+    "static/js/2.9c6d880b.chunk.js.LICENSE.txt": "/ecommerce-demo/static/js/2.9c6d880b.chunk.js.LICENSE.txt",
     "static/media/ourshop.ec1234fe.png": "/ecommerce-demo/static/media/ourshop.ec1234fe.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e65ceb92.js",
-    "static/js/2.7007047f.chunk.js",
+    "static/js/runtime-main.02073992.js",
+    "static/js/2.9c6d880b.chunk.js",
     "static/css/main.61e8b5b0.chunk.css",
-    "static/js/main.1eae9a66.chunk.js"
+    "static/js/main.e9ca8b19.chunk.js"
   ]
 }

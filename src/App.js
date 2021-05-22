@@ -10,6 +10,8 @@ import Signinpagage from './Pages/homepage/signin andpage/signinpagage'
 import {auth} from './firebase/firebase.util'
 
 
+import {createUserProfileDocument} from './firebase/firebase.util'
+
 class App extends Component{
   constructor(props){
     super(props)
@@ -19,9 +21,22 @@ class App extends Component{
   }
     unsubscribeFromAuth =null
     componentDidMount() {
-      this.unsubscribeFromAuth = auth.onAuthStateChanged(user =>{
-        this.setState({currentUser:user})
-        console.log(user)
+      this.unsubscribeFromAuth = auth.onAuthStateChanged(async userauth =>{
+        if(userauth){
+          const userRef = await createUserProfileDocument(userauth)
+          userRef.onSnapshot(snapshot=>{
+            this.setState({
+              currentUser: {
+                id: snapshot.id,
+                ...snapshot.data()
+              }
+            })
+          })
+        
+        }
+        else{
+          this.setState({currentUser: userauth})
+        }
       })
     }
 

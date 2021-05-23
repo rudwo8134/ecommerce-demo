@@ -4,7 +4,10 @@ import './signin.scss'
 import Signin from '../../../Components/Sign-in/signin'
 import Signup from '../../../Components/sign-up/signupcomponent'
 
+
+
 function Signinpagage() {
+
     return (
         <div className="sign-in-and-sign-up">
             <Signin/>
@@ -12,5 +15,6 @@ function Signinpagage() {
         </div>
     )
 }
+
 
 export default Signinpagage

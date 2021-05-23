@@ -1,6 +1,6 @@
 import React from 'react'
 import './styleprevie.scss'
-import {Collectionitems} from '../collection-items/collectionitems'
+import Collectionitems from '../collection-items/collectionitems'
 
 export const Preview = ({title,items}) => {
   
@@ -8,8 +8,8 @@ export const Preview = ({title,items}) => {
         <div className="collection-preview">
             <h1 className="title">{title.toUpperCase()}</h1>
             <div className="preview">
-            {items.filter((i, index) => index < 4).map(({id,...other})=>(
-                <Collectionitems key={id} {...other}/>
+            {items.filter((i, index) => index < 4).map((i)=>(
+                <Collectionitems key={i.id} item={i}/>
             ))}
             </div>
         </div>

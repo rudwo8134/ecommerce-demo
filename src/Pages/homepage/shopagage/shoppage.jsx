@@ -1,24 +1,20 @@
-import React, { Component } from 'react'
-import Shopdata from './shopdata'
+import React from 'react'
+import {Route} from 'react-router-dom'
 import './shopagestyle.scss'
-import {Preview} from '../../../Components/preveiw/preview'
+import Collectoverview from '../../../Components/collection-overview/collectionoverview'
+import Catergory from '../../cartegory/cartegory'
 
-export default class Shoppage extends Component {
-    constructor(props){
-        super(props)
-        this.state ={
-            corections:Shopdata
-        }
-    }
-    render() {
-        const {corections} =this.state
+
+const Shoppage = ({match}) => {
+   
         return (
             <div className="shop-page">
-                {corections.map(({id, ...others})=>(
-                    <Preview key={id}  {...others}/>
-                ))}
-        
+                <Route exact path={`${match.path}`} component={Collectoverview}/>
+                <Route path={`${match.path}/:categoryid`} component={Catergory}/>
             </div>
         )
-    }
+    
 }
+
+
+export default Shoppage
